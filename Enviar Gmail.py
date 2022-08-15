@@ -25,9 +25,5 @@ def send_email():
     s.sendmail(msg['From'], [msg['To']], msg.as_string().encode('utf-8'))
     print('Email enviado')
 
-
-# In[ ]:
-
-
 send_email()
 
